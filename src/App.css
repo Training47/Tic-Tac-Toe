@@ -10,6 +10,7 @@
   width: 100%;
   height: 100%;
   font-size: 40px;
+  font-weight: bolder;
   text-align: center;
   vertical-align: middle;
 }
@@ -29,19 +30,48 @@
 }
  
 .board {
-  margin: 0 33%;
-  max-width: 190px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 320px;
 }
  
 .container {
   text-align: center;
+  align-content: center;
 }
  
 #ai {
-  background: #d4edda;
+  background: #cacedb;
 }
  
 #container {
-  width: 600px;
-  height: 500px;
+  background-color: black;
+  
 }
+
+.game {
+  margin-top: 100px;
+  margin-left: 40%;
+}
+
+.square {
+  background-color: rgba(14,142,152,1);
+  color: white;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  line-height: 80px;
+  font-size: 50px;
+
+}
+
+body {
+  background-image: url("https://nypost.com/wp-content/uploads/sites/2/2019/02/020419-oceans-turning-color.jpg?quality=80&strip=all");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+
+
